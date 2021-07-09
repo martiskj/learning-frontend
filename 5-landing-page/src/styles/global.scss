@@ -1,0 +1,27 @@
+$color-primary: #F3F4FB;
+$color-active: #2067E2;
+$color-background: #0A15A9;
+$color-background-secondary: #EEF3F9;
+$font-primary: 'Poppins';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-margin {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.as-button {
+    background-color: $color-active;
+    padding: 15px;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: #1F5FD3;
+    }
+}
+
